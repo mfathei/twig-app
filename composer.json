@@ -8,8 +8,5 @@
     ],
     "require": {
         "twig/twig": "^2.0"
-    },
-    "scripts": {
-        "serve": "php -S twig-app.loc:8080"
     }
 }
