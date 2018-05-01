@@ -1,0 +1,13 @@
+{
+    "name": "root/twig-app",
+    "authors": [
+        {
+            "name": "Mohamed Mahdy",
+            "email": "oracle.dev10g@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "start": "php -S twig-app.loc",
+    }
+}
