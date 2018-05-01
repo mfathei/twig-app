@@ -1,1 +1,9 @@
-<h2>Hello {{ name }} You are {{ age }} years old.</h2>
+<h2>Hello {{ name }} You are {{ age }} years old.</h2><br/>
+
+{% if age > 30 %}
+	You are more than 30 years old.<br/><br/>
+{% endif %}
+
+{% for user in users %}
+	<p>Hello {{ user.name }} your age is {{ user.age }}</p>
+{% endfor %}
