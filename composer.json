@@ -6,8 +6,10 @@
             "email": "oracle.dev10g@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "twig/twig": "^2.0"
+    },
     "scripts": {
-        "start": "php -S twig-app.loc",
+        "serve": "php -S twig-app.loc:8080"
     }
 }
